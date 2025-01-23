@@ -47,7 +47,6 @@ RegisterCommand("purga", function (source, args)
 
     local allPeds = GetGamePool("CPed")
     local counter = 0
-    local arr = {}
     for i = 1, #allPeds do
         local this = allPeds[i]
 
@@ -59,8 +58,6 @@ RegisterCommand("purga", function (source, args)
             DeleteEntity(this)
             counter = counter + 1
         end
-
-
 
         ::skip::
     end

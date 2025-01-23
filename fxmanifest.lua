@@ -3,6 +3,6 @@ game "gta5"
 lua54 "yes"
 
 author "Brodino"
+description "Purgatore di entità per Nemoris RP"
 
-shared_scripts { "@ox_lib/init.lua" }
 server_scripts { "server.lua", }
